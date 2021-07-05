@@ -1,0 +1,384 @@
+@media screen and (max-width: 997px){
+    /*
+    =======================
+        Home Page CSS Start
+    =======================
+*/
+.banner-content{
+    margin-bottom: 50px;
+}
+.banner-content h1{
+    font-size: 45px;
+    line-height: 55px;
+}
+.banner-content p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.brand-btn{
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+}
+.common-header h2{
+    font-size: 45px;
+    line-height: 55px;
+}
+.book-btn{
+    padding: 8px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.books-area {
+    margin-top: 170px;
+}
+.modal-content-area{
+    bottom: -18%;
+    left: 22%;
+
+}
+
+/*
+    =======================
+        Home Page CSS End
+    =======================
+*/
+/*
+    =======================
+        DashBoard Page CSS Start
+    =======================
+*/
+.content-btn{
+    font-size: 20px;
+    
+}
+
+.sidebar-area-position{
+    margin-top: -167px;
+ }
+
+
+
+/*
+    =======================
+        DashBoard Page CSS End
+    =======================
+*/
+
+
+footer{
+    text-align: center;
+}
+.social-icons li{
+    text-align: center;
+    margin-left: 30%;
+}
+.header-text{
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+.book-cover-img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+   
+/*
+    =======================
+        Home Page CSS Start
+    =======================
+*/
+
+    .single-book{
+        width: 240px;
+    }
+    .book-img-box{
+        width: 220px;
+    }
+    .books-slider > .owl-nav > .owl-next{
+        right: 35%;
+        
+    }
+    .books-slider > .owl-nav > .owl-prev{
+        left: 35%;
+    }
+
+    .banner-content h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .common-header h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .book-content-box p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .book-content-box span{
+        font-size: 14px;
+       
+    }
+    .common-modal h1{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .modal-content-area{
+        bottom: -18%;
+        left: 15%;
+    
+    }
+   
+/*
+    =======================
+        Home Page CSS End
+    =======================
+*/
+/*
+    =======================
+        Login Page CSS Start
+    =======================
+*/
+.form-header  h2{
+    font-size: 22px;
+    line-height: 30px;
+}
+.form-style > .form-group input{
+    padding: 8px 12px;
+}
+.form-style a {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+/*
+    =======================
+        Login Page CSS End
+    =======================
+*/
+
+/*
+    =======================
+        DashBoard Page CSS Start
+    =======================
+*/
+.content-btn{
+    font-size: 18px;
+    
+}
+.sidebar-area-position{
+    margin-top: -155px;
+ }
+
+.user-content-box h4{
+    font-size: 16px;
+    line-height: 18px;
+}
+.user-content-box p{
+    font-size: 14px;
+    line-height: 16px;
+}
+.dashboard-sidebar-menu ul > li > a{
+    padding: 10px 2px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+/*
+    =======================
+        DashBoard Page CSS End
+    =======================
+*/
+
+
+.header-text{
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 575px) {
+   
+    /*
+    =======================
+        Home Page CSS Start
+    =======================
+    */
+
+    .single-book{
+        width: 260px;
+        margin: 0 auto;
+    }
+    .book-img-box{
+        width: 240px;
+    }
+    .books-slider > .owl-nav > .owl-next > span,
+    .books-slider > .owl-nav > .owl-prev > span{
+        width: 40px;
+        height: 40px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .brand-btn{
+        width: 170px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .book-images-box{
+        height: 250px;
+    }
+    .banner-book > .owl-dots {
+        left: 30%;
+    }
+    .common-header h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .books-area {
+        margin-top: 70px;
+    }
+    .common-modal{
+        text-align: center;
+        padding: 10px 25px;
+    }
+    .common-modal h1{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .modal-content-area{
+        position: inherit;
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    
+    }
+    .common-modal:nth-child(1),
+    .common-modal:nth-child(2){
+        border-bottom: 1px dashed  #08AD9F;
+    }
+
+    /*
+    =======================
+        Home Page CSS End
+    =======================
+*/
+
+/*
+    =======================
+        Login Page CSS Start
+    =======================
+*/
+
+.form-style a {
+    font-size: 18px;
+    line-height: 20px;
+}
+/*
+    =======================
+        Login Page CSS End
+    =======================
+*/
+/*
+    =======================
+        DashBoard Page CSS Start
+    =======================
+*/
+.dashboard-img-box{
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+/*
+    =======================
+        DashBoard Page CSS End
+    =======================
+*/
+
+/*
+    =======================
+        New Dash Board Page CSS Start
+    =======================
+*/
+.sidebar-area-position{
+    margin-top: -165px;
+ }
+.user-content-box h4{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 5px;
+}
+.user-content-box p{
+    font-size: 16px;
+}
+.contenedor-menu .menu li > a{
+    padding: 10px 8px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.down-arrow{
+    font-size: 16px;
+}
+.db-single-icon{
+    width:50%;
+    padding: 15px 0;
+}
+.db-single-icon svg{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.db-content h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+/*
+    =======================
+        New Dash Board Page CSS End
+    =======================
+*/
+.header-text{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.footer-about p{
+    font-size: 13px;
+    line-height: 16px;
+}
+.social-icons li{
+    text-align: center;
+    margin-left: 12%;
+}
+.footer-icon {
+    font-size: 20px;
+}
+.footer-social span{
+    font-size: 13px;
+}
+.book-cover-img{
+    height: 230px;
+}
+
+  }

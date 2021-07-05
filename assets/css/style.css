@@ -1,0 +1,886 @@
+
+
+    /* 
+    =======================
+        Common Css
+    ======================= 
+    */
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #F9F9F9;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height:100%;
+}
+input:focus{
+    outline:none;
+}
+.common-header h2{
+    font-family: 'Mahfuj-AK';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 87px;
+    color: #000;
+    margin: 60px 0 30px 0;
+
+}
+.common-header > h2 > span {
+    color: #08AD9F;
+}
+
+
+/*
+    =======================
+        Home Page CSS Start
+    =======================
+*/
+
+
+
+/* 
+                #############################
+                        Navbar Css
+                #############################
+*/
+
+.header{
+    background-color: #fff !important;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 6%);
+    padding: 10px 0;
+    position: fixed;
+    z-index: 9999999;
+    width: 100%;
+    top: 0;
+    transition: .5s;
+}
+.menu_bg {
+    padding: 0 0;
+}
+
+
+.navbar-brand{
+    width: 180px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.navbar-nav > .nav-item{
+    margin: 0 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+.navbar-nav > .nav-item > .nav-link{
+    padding: 5px 10px;
+    font-family: "Uni-Neue";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    transition: .5s;
+}
+.navbar-nav > .nav-item > .nav-link:hover{
+    background-color: #08AD9F;
+    border-radius: 5px;
+    color: #FEFEFE;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.list-before-icon{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 3px;
+}
+.list-after-icon{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 3px;
+}
+.navbar-nav > .nav-item > .nav-link:focus .list-after-icon{
+    transform: rotate(180deg);
+
+}
+
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.dropdown-menu li:first-child{
+    border-top: 2px solid #08AD9F;
+}
+.dropdown-menu .dropdown-item{
+    font-family: "Uni-Neue";
+    padding: 10px 25px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #08AD9F;
+    color: #fff;
+}
+.login-btn button{
+    background-color: #19ccbd;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.login-btn button:hover{
+    background-color: #08AD9F;
+}
+
+
+/* 
+                #############################
+                        Banner Css
+                #############################
+*/
+
+.banner-area{
+    padding-top: 80px;
+    position: relative;
+}
+.banner-area > .container{
+    background-color: #fff;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.banner-content h1{
+    font-family: 'Mahfuj-AK';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 87px;
+    color: #000;
+}
+.banner-content h1 > span{
+    color: #08AD9F;
+}
+.banner-content p{
+    
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.brand-btn{
+    width: 220px;
+    height: 50px;
+    font-family: 'Kalpurush';
+    font-size: 28px;
+    color: #08AD9F;
+    border: 1px dashed  #08AD9F;
+    border-radius: 5px;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+    transition: .8s;
+}
+.brand-btn svg{
+    font-size: 18px;
+}
+.brand-btn:hover{
+    box-shadow: none;
+    background-color: #08AD9F;
+    color: #fff;
+}
+
+.book-images-box{
+    width: 100%;
+    height: 260px;
+}
+.book-images-box img{
+    
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+}
+.banner-book{
+    position: relative;
+}
+.banner-book > .owl-nav > .owl-next{
+    position: absolute;
+    top: 48%;
+    right: 2%;
+    
+}
+.banner-book > .owl-nav > .owl-prev{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    
+}
+.banner-book > .owl-nav > .owl-next > span,
+.banner-book > .owl-nav > .owl-prev > span{
+    background-color: #fff;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 32px;
+    line-height: 24px;
+    border-radius: 5px;
+    color: #08AD9F;
+    transition: .5s;
+}
+.banner-book > .owl-nav > .owl-next > span:hover,
+.banner-book > .owl-nav > .owl-prev > span:hover{
+    background-color: #08AD9F;
+    color: #fff;
+}
+.banner-book > .owl-dots {
+    position: absolute;
+    bottom: 3%;
+    left: 42%;
+}
+.banner-book > .owl-dots > .owl-dot{
+    background-color: #ddd;
+    color: #ddd;
+    border: 1px solid #eee;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    margin: 0 5px;
+}
+.banner-book > .owl-dots > .active{
+    background-color: #08AD9F;
+    border: 1px solid #08AD9F;
+}
+
+.modal-content-area{
+    position: absolute;
+    left: 40%;
+    bottom: -11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px dashed  #08AD9F;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+
+}
+
+.common-modal{
+    text-align: center;
+    padding: 10px 35px;
+}
+.common-modal h1{
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 30px;
+    line-height: 30px;
+}
+.common-modal:nth-child(1),
+.common-modal:nth-child(2){
+    border-right: 1px dashed  #08AD9F;
+}
+
+/* 
+                #############################
+                        Books Area Css
+                #############################
+*/
+.books-area{
+    margin: 100px 0;
+}
+.single-book{
+    width: 210px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding-top: 5px;
+}
+.dashboard-book{
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.book-img-box{
+    width: 190px;
+    height: 200px;
+    margin: 10px auto;
+}
+.dashboard-img-box{
+    height: 150px;
+    width: 100%;
+    margin:  0 auto;
+}
+.book-img-box img,
+.dashboard-img-box img{
+    object-fit: cover;
+    border-radius: 5px;
+}
+.book-content-box p{
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0;
+}
+.book-content-box span{
+    color: #565555;
+    font-size: 15px;
+   
+}
+.book-btn{
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Kalpurush';
+    font-size: 20px;
+    line-height: 38px;
+    background: #15d8c8;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 15px;
+    transition: .5s;
+}
+.book-btn:hover{
+    background-color: #08AD9F;
+}
+
+.books-slider{
+    position: relative;
+}
+.books-slider > .owl-nav > .owl-next{
+    position: absolute;
+    bottom: -15%;
+    right: 42%;
+    
+}
+.books-slider > .owl-nav > .owl-prev{
+    position: absolute;
+    bottom: -15%;
+    left: 42%;
+}
+
+.books-slider > .owl-nav > .owl-next > span,
+.books-slider > .owl-nav > .owl-prev > span{
+    background-color: #fffbfb;
+    display: block;
+    width: 45px;
+    height: 45px;
+    font-size: 32px;
+    line-height: 34px;
+    border-radius: 50%;
+    color: #08AD9F;
+    transition: .5s;
+}
+.books-slider > .owl-nav > .owl-next > span:hover,
+.books-slider > .owl-nav > .owl-prev > span:hover{
+    background-color: #08AD9F;
+    color: #fff;
+}
+
+
+/* 
+                #############################
+                        FAQ Section Css
+                #############################
+*/
+.faq-header{
+    font-size: 28px;
+    font-family: 'Kalpurush';
+    color: #08AD9F;
+    text-align: center;
+    margin: 30px 0;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-item > h2 > button{
+    color: #08AD9F;
+    font-size: 22px;
+    font-family: 'Kalpurush';
+    text-decoration: none;
+}
+.accordion-item > h2 > button:focus{
+    outline:none;
+    box-shadow:none;
+    background-color: #fff;
+    color: #08AD9F;
+    border: none;
+}
+.accordion-button:not(.collapsed){
+    outline:none;
+    box-shadow:none;
+    background-color: #fff;
+    color: #08AD9F;
+    border: none;
+}
+.accordion-body{
+    color: #000;
+    font-size: 14px;
+    font-family: 'Kalpurush';
+}
+/* 
+                #############################
+                        Footer Css
+                #############################
+*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding:30px 20px 0px 20px ;
+    margin-top: 50px;
+    font-family: 'kalpurus';
+}
+.header-text{
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+.footer-about p{
+    font-size: 16px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: #fff;
+}
+.footer-social span{
+    font-size: 16px;
+    text-align: center;
+}
+.social-icons li{
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+   
+}
+.social-icons span{
+    margin-left: 3%;
+}
+.footer-end a{
+    color: #fff;
+    font-size: 20px;
+}
+/*
+    =======================
+        Home Page CSS End
+    =======================
+*/
+
+
+/*
+    =======================
+        Login Page CSS Start
+    =======================
+*/
+
+            /* 
+                #############################
+                        Login form Css
+                #############################
+            */
+.form-content{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.form-header  h2{
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+}
+.form-style > .form-group {
+    margin-bottom: 10px;
+}
+.iti.iti--allow-dropdown.iti--separate-dial-code {
+    width: 100%;
+}
+.form-style > .form-group input{
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+
+}
+ .form-control{
+    border: none;
+    border-radius: 5px;
+}
+ .form-control:focus{
+    border: none;
+    box-shadow:none;
+    
+}
+
+.form-style a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #19ccbd;
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: .5s;
+}
+.form-style a:hover{
+    background-color: #08AD9F;
+}
+
+
+
+/*
+    =======================
+        Login Page CSS End
+    =======================
+*/
+
+
+
+
+
+
+/*
+    =======================
+    Registration Page CSS Start
+    =======================
+*/
+
+
+
+
+ /* 
+                #############################
+                    Registration form Css
+                #############################
+*/
+
+
+.form-style select{
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+.form-style select:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+/*
+    =======================
+    Registration Page CSS End
+    =======================
+*/
+
+
+
+/*
+    =======================
+        Dashboard Page CSS Start
+    =======================
+*/
+.dashboard{
+    padding-top: 70px;
+}
+.dashboard > .container,
+.desboard-content > .container{
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.selector-wrap{
+    margin-bottom: 10px;
+}
+.selector-wrap > form > select{
+    border: none;
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+.search-box{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #19ccbd;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0px;
+    transition: .5s;
+}
+.search-box:hover{
+    background: #08AD9F;
+}
+.search-box a{
+    color: #fff;
+}
+
+.content-btn{
+    border-radius: 5px;
+    background: #E5E5E5;
+    padding: 15px 0px;
+    font-family: 'Kalpurush';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    margin-bottom: 15px;
+    
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    color: #08AD9F;
+    text-align: center;
+
+}
+.icon svg{
+    font-size: 20px;
+}
+.content-btn a{
+    color: #000;
+}
+
+/*
+    =======================
+        Dashboard Page CSS End
+    =======================
+*/
+
+
+/*
+    =======================
+        Single Book Page CSS Start
+    =======================
+*/
+
+
+.book-cover-area{
+    margin-top: 70px;
+}
+.book-cover-area > .container{
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+.book-cover-img{
+    border: 1px dashed #08AD9F;
+    padding: 15px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*
+    =======================
+        Single Book Page CSS End
+    =======================
+*/
+
+
+
+/*
+    =======================
+        New DashBoard  Page CSS Start
+    =======================
+*/
+.backbroud-banner{
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 95px;
+}
+.dashboard-content {
+    margin-bottom: 20px;
+}
+
+.sidebar-area-position{
+   margin-top: -167px;
+}
+.sideBar-area{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.user-img-box{
+    width: 77px;
+    height: 77px;
+    margin: 10px auto;
+}
+.user-img-box img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.user-content-box h4{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.user-content-box p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #08AD9F;
+}
+.dashboard-sidebar-menu{
+    padding: 20px 0;
+    width: auto;
+}
+
+
+.contenedor-menu {
+    height: auto;
+	width: 100%;
+	display: inline-block;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu { width: 100%; }
+
+.contenedor-menu ul { list-style: none; }
+
+.contenedor-menu .menu li a {
+    display: block;
+    padding: 12px 10px;
+    font-family: "Kalpurush";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    transition: .5s;
+}
+.contenedor-menu .menu > li > a > svg{
+    margin-right: 8px;
+}
+.contenedor-menu .menu li a:hover { background: #08AD9F; color: #fff; } 
+.contenedor-menu .menu i.fa { 
+	font-size: 12px; 
+	line-height: 18px; 
+	float: right; 
+	margin-left: 10px; 
+}
+
+.contenedor-menu .menu ul { display: none; }
+.contenedor-menu .menu ul li a {
+	background: #fff;
+	color: #000;
+}
+
+.contenedor-menu .menu .activado > a {
+	background: #08AD9F;
+	color: #fff;
+}
+.down-arrow{
+    float: right;
+    font-size: 18px;
+}
+
+
+
+.db-single-content{
+    background-color: #fff;
+    padding: 3px;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.db-single-icon{
+    width:90px;
+    height: 100%;
+    background: #08AD9F;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+.db-single-icon svg{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+.db-content{
+    padding-left: 6px;
+}
+.db-content h3{
+    
+font-family: 'Kalpurush';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+color: #000000;
+margin: 0;
+padding: 0;
+}
+/*
+    =======================
+        New DashBoard  Page CSS End
+    =======================
+*/

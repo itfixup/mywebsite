@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Mahfuj-AK';
+    src: url('LiMahfujAKUnicode.eot');
+    src: url('LiMahfujAKUnicode.eot?#iefix') format('embedded-opentype'),
+        url('LiMahfujAKUnicode.woff') format('woff'),
+        url('LiMahfujAKUnicode.ttf') format('truetype'),
+        url('LiMahfujAKUnicode.svg#LiMahfujAKUnicode') format('svg');
+}
+
+@font-face {
+    font-family: 'Kalpurush';
+    src: url('Kalpurush.eot');
+    src: url('Kalpurush.eot?#iefix') format('embedded-opentype'),
+        url('Kalpurush.woff') format('woff'),
+        url('Kalpurush.ttf') format('truetype'),
+        url('Kalpurush.svg#Kalpurush') format('svg');
+}
+
+@font-face {
+    font-family: 'SutonnyMJ';
+    src: url('SutonnyMJ.eot');
+    src: url('SutonnyMJ.eot?#iefix') format('embedded-opentype'),
+        url('SutonnyMJ.woff') format('woff'),
+        url('SutonnyMJ.ttf') format('truetype'),
+        url('SutonnyMJ.svg#SutonnyMJ') format('svg');
+}
+
